@@ -13,7 +13,8 @@ export default function Home() {
     async function fetchProfiles() {
       try {
         // Try to fetch from API
-        const res = await fetch('http://localhost:5000/api/profiles');
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+        const res = await fetch(`${apiUrl}/api/profiles`);
         if (!res.ok) throw new Error('Failed to fetch');
         const data = await res.json();
         setProfiles(data);

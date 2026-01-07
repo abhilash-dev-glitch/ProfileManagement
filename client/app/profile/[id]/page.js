@@ -15,7 +15,8 @@ export default function ProfileDetails({ params }) {
     useEffect(() => {
         async function fetchProfile() {
             try {
-                const res = await fetch(`http://localhost:5000/api/profiles/${id}`);
+                const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+                const res = await fetch(`${apiUrl}/api/profiles/${id}`);
                 if (!res.ok) throw new Error('Failed to fetch');
                 const data = await res.json();
                 setProfile(data);

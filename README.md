@@ -1,59 +1,111 @@
-# InternPedia - Profile Management App
+<div align="center">
 
-**Live Demo:** [https://internpedia-web.onrender.com/](https://internpedia-web.onrender.com/)
+  # 🎓 InternPedia
+  ### Find Your Next Career Opportunity
 
-InternPedia is a full-stack profile management application designed to help users display their professional portfolios, skills, and projects in a visually appealing and interactive way.
+  <p align="center">
+    <a href="https://internpedia-web.onrender.com/">
+      <img src="https://img.shields.io/badge/LIVE_DEMO-FF5722?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
+    </a>
+    <a href="https://github.com/abhilash-dev-glitch/ProfileManagement">
+      <img src="https://img.shields.io/badge/GITHUB-REPO-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
+    </a>
+  </p>
 
-![InternPedia Landing Page](https://via.placeholder.com/800x400?text=InternPedia+Screenshot)
+  ![InternPedia Banner](https://via.placeholder.com/1200x500/f3f4f6/f97316?text=InternPedia+Dashboard)
 
-## 🚀 Features
+  <p align="center">
+    <b>A modern, interactive platform for showcasing professional portfolios.</b>
+    <br />
+    Built with the <b>MERN Stack</b> and <b>Next.js</b>.
+  </p>
 
-*   **Modern Interactive UI:** Sleek profile cards with hover effects, gradients, and responsive design.
-*   **Profile Details:** Comprehensive view including Bio, Skills (tagged), Projects, and Visual Resume placeholders.
-*   **Search & Filter:** (Planned) Efficiently find profiles based on skills or location.
-*   **Admin Dashboard:** (Planned) Manage profiles and user data.
+</div>
 
-## 🛠️ Tech Stack
+---
 
-*   **Frontend:** Next.js 14, React, Tailwind CSS
-*   **Backend:** Node.js, Express.js
-*   **Database:** MongoDB (Atlas)
-*   **Deployment:** Render
+## 🚀 Overview
 
-## 📦 Installation & Setup
+**InternPedia** is a reimagined profile management system designed to make professional networking visually engaging. Gone are the days of boring text-based lists. InternPedia introduces:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/abhilash-dev-glitch/ProfileManagement.git
-    cd ProfileManagement
-    ```
+*   ✨ **Stunning Visuals:** Gradient cards, floating avatars, and interactive hover effects.
+*   ⚡ **Lightning Fast:** Powered by **Next.js 14** for optimal performance.
+*   🎨 **Modern Design:** Curated aesthetically with **Tailwind CSS**.
 
-2.  **Install Dependencies:**
-    *   **Server:**
-        ```bash
-        cd server
-        npm install
-        ```
-    *   **Client:**
-        ```bash
-        cd ../client
-        npm install
-        ```
+---
 
-3.  **Environment Variables:**
-    *   Create a `.env` file in `server/` with:
-        ```
-        MONGO_URI=your_mongodb_connection_string
-        ```
-    *   Create a `.env.local` file in `client/` with:
-        ```
-        NEXT_PUBLIC_API_URL=http://localhost:5000
-        ```
+## 🌟 Key Features
 
-4.  **Run Locally:**
-    *   **Server:** `npm start` (in `server/`)
-    *   **Client:** `npm run dev` (in `client/`)
+| Feature | Description |
+| :--- | :--- |
+| **🎨 Dynamic Profile Cards** | Beautifully designed cards with gradient headers, location pins, and skill pills. |
+| **🔍 Detailed Views** | Deep dive into profiles with dedicated pages for Bio, Skills, and Projects. |
+| **📱 Fully Responsive** | Seamless experience across Mobile, Tablet, and Desktop devices. |
+| **🗺️ Interactive Map** | (Coming Soon) Visualize candidate locations on a world map. |
+| **📊 Admin Dashboard** | (Coming Soon) Powerful tools to manage user data and analytics. |
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! Please fork the repo and submit a pull request.
+## 🛠️ Technology Stack
+
+<div align="center">
+
+| Frontend | Backend | Database | Deployment |
+| :---: | :---: | :---: | :---: |
+| ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white) |
+| **React 19** | **Express.js** | **Atlas Cloud** | **Web Service** |
+| **Tailwind CSS v4** | **REST API** | **Mongoose** | **CI/CD** |
+
+</div>
+
+---
+
+## 📸 Snapshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/600x350/e5e7eb/1f2937?text=Landing+Page+UI" width="45%" alt="Home Page" />
+  <img src="https://via.placeholder.com/600x350/e5e7eb/1f2937?text=Profile+Details+UI" width="45%" alt="Profile Details" />
+</div>
+
+---
+
+## ⚡ Getting Started
+
+Follow these steps to set up the project locally.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/abhilash-dev-glitch/ProfileManagement.git
+cd ProfileManagement
+```
+
+### 2. Backend Setup
+```bash
+cd server
+npm install
+# Create .env file:
+# MONGO_URI=your_mongodb_connection_string
+npm start
+```
+
+### 3. Frontend Setup
+```bash
+cd ../client
+npm install
+# Create .env.local file:
+# NEXT_PUBLIC_API_URL=http://localhost:5000
+npm run dev
+```
+
+Visit `http://localhost:3000` to see the app in action!
+
+---
+
+<div align="center">
+
+  **Developed with ❤️ by Abhilash**
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/abhilash-dev-glitch)
+
+</div>
